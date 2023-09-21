@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<setup:LocationCatalog
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:setup="http://www.eclipse.org/oomph/setup/1.0">
+  <installation>
+    <key href="file:/D:/java-2023-09/eclipse/configuration/org.eclipse.oomph.setup/installation.setup#/"/>
+    <value href="file:/D:/Eclipse%20Inno%20SpringBoot/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup#/"/>
+  </installation>
+  <installation>
+    <key href="file:/D:/Eclipse2022-03%20-%20Spring-Workspace/eclipse/configuration/org.eclipse.oomph.setup/installation.setup#/"/>
+    <value href="file:/D:/Eclipse%20Innogent%20Workspace/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup#/"/>
+    <value href="file:/D:/Eclipse%20workspace%20minor/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup#/"/>
+    <value href="file:/D:/Eclipse2022-03%20-%20Spring-Workspace/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup#/"/>
+  </installation>
+  <installation>
+    <key href="file:/C:/Users/Asus/eclipse/jee-2022-12/eclipse/configuration/org.eclipse.oomph.setup/installation.setup#/"/>
+    <value href="file:/D:/Eclipse-Spring-workspace/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup#/"/>
+    <value href="file:/C:/Users/Asus/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup#/"/>
+  </installation>
+  <installation>
+    <key href="file:/C:/Users/Asus/eclipse/jee-2022-03/eclipse/configuration/org.eclipse.oomph.setup/installation.setup#/"/>
+    <value href="file:/D:/Eclipse2022-03%20-%20Spring-Workspace/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup#/"/>
+    <value href="file:/D:/Eclipse%20workspace%20minor/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup#/"/>
+    <value href="file:/D:/Eclipse-Spring-workspace/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup#/"/>
+  </installation>
+  <workspace>
+    <key href="file:/D:/Eclipse%20Inno%20SpringBoot/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup#/"/>
+    <value href="file:/D:/java-2023-09/eclipse/configuration/org.eclipse.oomph.setup/installation.setup#/"/>
+  </workspace>
+  <workspace>
+    <key href="file:/D:/Eclipse%20Innogent%20Workspace/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup#/"/>
+    <value href="file:/D:/Eclipse2022-03%20-%20Spring-Workspace/eclipse/configuration/org.eclipse.oomph.setup/installation.setup#/"/>
+  </workspace>
+  <workspace>
+    <key href="file:/D:/Eclipse%20workspace%20minor/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup#/"/>
+    <value href="file:/D:/Eclipse2022-03%20-%20Spring-Workspace/eclipse/configuration/org.eclipse.oomph.setup/installation.setup#/"/>
+    <value href="file:/C:/Users/Asus/eclipse/jee-2022-03/eclipse/configuration/org.eclipse.oomph.setup/installation.setup#/"/>
+  </workspace>
+  <workspace>
+    <key href="file:/D:/Eclipse2022-03%20-%20Spring-Workspace/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup#/"/>
+    <value href="file:/D:/Eclipse2022-03%20-%20Spring-Workspace/eclipse/configuration/org.eclipse.oomph.setup/installation.setup#/"/>
+    <value href="file:/C:/Users/Asus/eclipse/jee-2022-03/eclipse/configuration/org.eclipse.oomph.setup/installation.setup#/"/>
+  </workspace>
+  <workspace>
+    <key href="file:/D:/Eclipse-Spring-workspace/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup#/"/>
+    <value href="file:/C:/Users/Asus/eclipse/jee-2022-12/eclipse/configuration/org.eclipse.oomph.setup/installation.setup#/"/>
+    <value href="file:/C:/Users/Asus/eclipse/jee-2022-03/eclipse/configuration/org.eclipse.oomph.setup/installation.setup#/"/>
+  </workspace>
+  <workspace>
+    <key href="file:/C:/Users/Asus/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup#/"/>
+    <value href="file:/C:/Users/Asus/eclipse/jee-2022-12/eclipse/configuration/org.eclipse.oomph.setup/installation.setup#/"/>
+  </workspace>
+</setup:LocationCatalog>

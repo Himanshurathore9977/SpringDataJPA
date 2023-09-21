@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Aug 18 15:53:50 IST 2023
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1692354230954
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact io.micrometer\:micrometer-commons\:jar\:1.10.6 from/to central (https\://repo.maven.apache.org/maven2)\: The operation was cancelled.
