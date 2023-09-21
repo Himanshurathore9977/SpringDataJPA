@@ -11,47 +11,42 @@ import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "owners")
+@Table(name = "owner")
 public class Owner {
 	@Id                                                                
 	@GeneratedValue(strategy = GenerationType.SEQUENCE) 
 	@Column(name = "OwnerNo",  nullable = false )
-	private int OwnerNo ;
+	private Long OwnerNo ;
 	
 	
 	private String OwnerName  ; 
 	
 	@OneToMany(mappedBy = "owner")
-	private List<Car>cars ;
+	private List<Car>car ;
 
-	public int getOwnerNo() {
+	public Long getOwnerNo() {
 		return OwnerNo;
 	}
 
-	public void setOwnerNo(int ownerNo) {
+	public void setOwnerNo(Long ownerNo) {
 		OwnerNo = ownerNo;
 	}
 
 	public String getOwnerName() {
 		return OwnerName;
 	}
-
-	public void setOwnerName(String ownerName) {
-		OwnerName = ownerName;
-	}
-
+
 	public List<Car> getCars() {
-		return cars;
+		return car;
 	}
 
-	public void setCars(List<Car> cars) {
-		this.cars = cars;
+	public void setCars(List<Car> car) {
+		this.car = car;
 	}
 
-	public Owner(String ownerName, List<Car> cars) {
-		super();
+	public Owner(String ownerName, List<Car> car) {
 		OwnerName = ownerName;
-		this.cars = cars;
+		this.car = car;
 	}
 
 	
@@ -63,8 +58,18 @@ public class Owner {
 
 	@Override
 	public String toString() {
-		return "Owner [OwnerNo=" + OwnerNo + ", OwnerName=" + OwnerName + ", cars=" + cars + "]";
-	} 
+		return "Owner [OwnerNo=" + OwnerNo + ", OwnerName=" + OwnerName + ", car=" + car + "]";
+	}
+
+	public void setOwnerName(String ownerName) {
+		OwnerName = ownerName;
+	}
+	
+	public void setCar(List<Car> car) {
+		this.car = car;
+	}
+
+	
 	
 	
 	

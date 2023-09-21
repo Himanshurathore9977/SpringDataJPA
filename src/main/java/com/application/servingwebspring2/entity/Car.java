@@ -1,5 +1,7 @@
 package com.application.servingwebspring2.entity; 
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -10,25 +12,26 @@ import jakarta.persistence.Table;
 
 
 @Entity
-@Table(name = "cars")
+@Table(name = "car")
 public class Car {
     
 @Id                                                                
 @GeneratedValue(strategy = GenerationType.SEQUENCE)            
 @Column(name = "CarNO" , nullable = false )
-private int CarNo ;
+private Long CarNo ;
 
 private String CarName ;                                           
 private String Company ;      
 
+@JsonIgnore
 @ManyToOne                                                         
 private Owner owner ;
 
-public int getCarNo() {
+public Long getCarNo() {
 	return CarNo;
 }
 
-public void setCarNo(int carNo) {
+public void setCarNo(Long carNo) {
 	CarNo = carNo;
 }
 
